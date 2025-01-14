@@ -1,0 +1,132 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .bmi-page {
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  /* Header Styles */
+  /* Header Styles */
+.bmi-header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    color: #333;
+    padding: 15px; /* Reduced padding */
+    border-radius: 10px; /* Slightly smaller border radius */
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2); /* Softer shadow */
+  }
+  
+  .header-logo {
+    font-size: 1.8rem; /* Reduced size of the logo */
+    margin-bottom: 5px; /* Less space below the logo */
+  }
+  
+  .bmi-header h1 {
+    font-size: 1.6rem; /* Smaller font size for the title */
+    margin-bottom: 5px;
+  }
+  
+  .bmi-header p {
+    font-size: 0.9rem; /* Reduced font size for the description */
+    color: #555;
+    margin: 0; /* Removed extra spacing */
+  }
+  
+  
+  /* Main Container */
+  .bmi-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+    background: #ffffff;
+    color: #333;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    width: 100%;
+  }
+  
+  .bmi-left,
+  .bmi-right {
+    flex: 1;
+  }
+  
+  .bmi-left {
+    padding: 0 60px 0 0;
+    border-right: 1px solid #ccc;
+  }
+  
+  .bmi-right {
+    padding: 20px;
+  }
+  
+  /* Input Groups */
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Buttons */
+  .calculate-btn {
+    background-color: #2193b0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .calculate-btn:hover {
+    background-color: #6dd5ed;
+  }
+  
+  /* Result Section */
+  .bmi-result {
+    margin-top: 20px;
+  }
+  
+  .bmi-result h3 {
+    font-size: 1.5rem;
+    color: #2193b0;
+  }
+  
+  /* BMI Categories */
+  .bmi-right ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .bmi-right li {
+    padding: 5px 0;
+    font-size: 1rem;
+  }
+  
