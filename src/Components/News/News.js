@@ -8,7 +8,9 @@ function News() {
     const [readMoreData ,setReadMoreData] = useState({});
     // const [loading, setLoading] = useState(true);
     // const [error, setError] = useState(null);
-    const apiUrl = 'https://newsapi.org/v2/top-headlines?country=in&apiKey=2a7de1fe5f28462da0ad7e10a15dad28';
+    console.log(expanded);
+    console.log(readMoreData);
+
     const fetchNews = async () => {
         try {
           const params = {
