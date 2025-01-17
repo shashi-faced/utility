@@ -5,7 +5,7 @@ import {
   Route,
 } from "react-router-dom";
 import Bmi from './Components/BMI-Calculator/Bmi.js';
-
+import News from './Components/News/News.js';
 function App() {
   return (
     <>
@@ -17,7 +17,14 @@ function App() {
               <Bmi/>
               </div>
             } />
+            <Route path="/news"
+            element={
+              <div>
+              <News/>
+              </div>
+            } />
         </Routes>
+        
       </BrowserRouter>
     </>
   );
