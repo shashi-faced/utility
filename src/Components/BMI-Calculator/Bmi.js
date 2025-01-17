@@ -68,7 +68,9 @@ const Bmi = () => {
       </ul>
     </div>
   </div>
+  <button className="toggle-button margin-center" onClick={() => window.location.href = '/news'}>See Today's News</button>
 </div>
+
   );
 };
 
