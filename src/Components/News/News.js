@@ -22,7 +22,7 @@ function News() {
             countries: 'in',
           };
           // Make the GET request with query parameters
-          const response = await axios.get("http://api.mediastack.com/v1/news", { params });
+          const response = await axios.get("https://api.mediastack.com/v1/news", { params });
           setNews(response.data); // Store response data
         } catch (err) {
           console.log(err);
